@@ -1,0 +1,1 @@
+"./main.obj" "./onewire.obj" "../lnk_msp430g2452.cmd" -l"libc.a" 
