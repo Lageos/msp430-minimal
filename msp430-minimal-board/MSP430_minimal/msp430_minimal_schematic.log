@@ -1,0 +1,114 @@
+----------------------------------------------------------------------------
+SUMMARY-            Translator Settings
+----------------------------------------------------------------------------
+UNITS                                              = METRIC                                            
+MAX_SPLINE_DEGREE                                  = 3                                                 
+UGI_IMPORT_POLYLINE                                = SPLINE                                            
+UGI_DIM_IMPORT_FLAG                                = REAL                                              
+FILL_MODE                                          = OFF                                               
+IMPORT_ACAD_MODEL_DATA                             = YES                                               
+IMPORT_ACAD_MODEL_DATA_TO                          = MODELING                                          
+IMPORT_ACAD_LAYOUTS                                = YES                                               
+IMPORT_ACAD_LAYOUTS_TO                             = IMPORTED_VIEW                                     
+IMPORT_ACAD_CURVES_ON_SKETCH                       = NO                                                
+AVOID_NX_TEMPLATE_PART_LAYERS                      = YES                                               
+SET_NX_LAYER_NUMBER_FROM_PREFIX                    = NO                                                
+SKIP_UNREFERENCED_ACAD_LAYERS                      = YES                                               
+IMPORT_UNSELECTED_ACAD_LAYERS                      = NO                                                
+IMPORT_UNSELECTED_ACAD_LAYERS_TO                   = 256                                               
+NON_NUMERIC_LAYER_SORTING_CRITERIA                 = ALPHABETICAL                                      
+-------------------------------End------------------------------------------
+
+----------------------------------------------------------------------------
+SUMMARY-            ACAD and NX Layer Mapping Info
+----------------------------------------------------------------------------
+ACAD Layer                                        NX Layer                                          
+------------                                      -----------                                       
+0                                                 2                                                 
+1                                                 1                                                 
+16                                                16                                                
+17                                                17                                                
+20                                                20                                                
+21                                                21                                                
+23                                                23                                                
+25                                                25                                                
+27                                                27                                                
+39                                                39                                                
+40                                                40                                                
+43                                                43                                                
+51                                                51                                                
+-------------------------------End------------------------------------------
+
+----------------------------------------------------------------------------
+SUMMARY-            ACAD and NX Linefonts Mapping Info
+----------------------------------------------------------------------------
+ACAD Linefont                                     NX Linefont                                       
+------------                                      -----------                                       
+CONTINUOUS                                        Solid                                             
+-------------------------------End------------------------------------------
+
+----------------------------------------------------------------------------
+SUMMARY-            ACAD Text Fonts And NX Text Fonts Info
+----------------------------------------------------------------------------
+ACAD TextFont                                     NX TextFont                                       
+------------                                      -----------                                       
+txt.shx                                           blockfont                                         
+-------------------------------End------------------------------------------
+
+----------------------------------------------------------------------------
+SUMMARY-            ACAD and NX Hatch Pattern Mapping Info
+----------------------------------------------------------------------------
+ACAD Hatch Pattern                                NX Hatch Pattern                                  
+------------                                      -----------                                       
+
+-None-
+-------------------------------End------------------------------------------
+
+INFO-
+INFO-		AutoCAD 16 to Unigraphics Version NX V8.0
+INFO-		3.03
+INFO-
+INFO-		Running DXFTOUG Translator .....
+INFO-
+INFO-		Start of Translation: Sat Jul 26 16:12:24 2014
+INFO-
+STATUS-		Converting D:\Users\michael\Documents\eagle\MSP430_minimal\msp430_minimal_schematic.dxf
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of AutoCAD Input Entities
+SUMMARY-	For AutoCAD File: D:\Users\michael\Documents\eagle\MSP430_minimal\msp430_minimal_schematic.dxf
+SUMMARY-SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Arc ......................................:	188
+SUMMARY-	Point ....................................:	13
+SUMMARY-	Line .....................................:	206
+SUMMARY-	Light Weight Polyline ....................:	2475
+SUMMARY-	Layout ...................................:	1
+SUMMARY-	Xrefed files ............................:	155
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	3038
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: D:\Users\michael\Documents\eagle\MSP430_minimal\msp430_minimal_schematic_dxf.prt
+SUMMARY-	Summary of UG Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	1154
+SUMMARY-	Point ....................................:	168
+SUMMARY-	Arc ......................................:	1843
+SUMMARY-	Spline ...................................:	16
+SUMMARY-	Group ....................................:	156
+SUMMARY-	Layout ...................................:	1
+SUMMARY-	Area Fill ................................:	49
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	3387
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Sat Jul 26 16:12:26 2014
+INFO-		Translation CPU time: 0 m, 2 s
+INFO-
